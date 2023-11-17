@@ -30,7 +30,7 @@ Users should be able to:
 
 - Live Site URL: [Live site URL](https://cerulean-syrniki-23e538.netlify.app/)
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/animated-responsive-clipboard-landing-page-using-html-and-vanilla-css-2TVpX_3jPU)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-product-card-preview-RbxPMTW283)
 
 ### Built with
 
