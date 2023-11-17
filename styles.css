@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: beige;
+}
+
+.container {
+  display: flex;
+  width: 50em;
+  margin: 120px auto;
+  /* border: black 20px solid; */
+  border-radius: 200px;
+  /* justify-content: space-between; */
+}
+
+.img-container {
+  width: 30rem;
+}
+
+picture > img {
+  width: 100%;
+}
+
+.product-details {
+  width: 25rem;
+  background-color: var(--White);
+  padding: 2rem 1.5rem;
+}
+
+.perfume {
+  color: var(--Dark-grayish-blue);
+  font-weight: bolder;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  color: var(--Very-dark-blue);
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+
+.content {
+  color: var(--Dark-grayish-blue);
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  line-height: 1.7rem;
+}
+
+.price-tag {
+  color: var(--Dark-cyan);
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+sup {
+  color: var(--Dark-grayish-blue);
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+button {
+  width: 18rem;
+  padding: 1.2rem;
+  font-size: 1.3rem;
+  margin-top: 4rem;
+  display: block;
+  border: none;
+  text-align: center;
+  color: var(--White);
+  border-radius: 10px;
+  background-color: var(--Dark-cyan);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(118, 49%, 20%);
+}
+
+button > p {
+  font-weight: bolder;
+}
+
+button > p > span {
+  margin-left: 12px;
+}
+
+/* MEDIA QUERY FOR SMALL SCREEN */
+@media screen and (max-width: 852px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+  }
+
+  picture {
+    width: 25rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  button {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .content {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .price-tag {
+    font-size: 2.5rem;
+  }
+}
