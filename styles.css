@@ -16,13 +16,13 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: beige;
+  background: #f3ebe4;
 }
 
 .container {
   display: flex;
   width: 50em;
-  margin: 120px auto;
+  margin: 20px auto;
   /* border: black 20px solid; */
   border-radius: 200px;
   /* justify-content: space-between; */
