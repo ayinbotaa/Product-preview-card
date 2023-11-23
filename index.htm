@@ -5,24 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product preview card component</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <div class="container">
-      <picture>
-        <source media="(max-width: 852px)" srcset="images/image-product-mobile.jpg" alt="">
-        <img src="images/image-product-desktop.jpg" alt="" />
-      </picture>
-      <div class="product-details">
-        <p class="perfume">perfume</p>
-        <h1>gabrielle essence eau de parfum</h1>
-        <p class="content">
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the house of CHANEL
-        <p class="price-tag">$149.99 <sup>$169.99</p>
-        <button>
-          <p><img src="images/icon-cart.svg" alt="cart icon" /><span>Add to Cart</span></p>
-        </button>
+      <div class="card">
+        <div class="img-tag">
+          <picture>
+            <source
+              media="(max-width: 498px)"
+              srcset="images/image-product-mobile.jpg"
+              alt=""
+            />
+            <img src="images/image-product-desktop.jpg" alt="" />
+          </picture>
+        </div>
+        <div class="product-details">
+          <p class="perfume">perfume</p>
+          <h1>gabrielle essence eau de parfum</h1>
+          <p class="content">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the house of CHANEL
+          </p>
+
+          <p class="price-tag">
+            <span class="price">$149.99</span> <sup>$169.99</sup>
+          </p>
+          <button>
+            <p>
+              <img src="images/icon-cart.svg" alt="cart icon" /><span
+                >Add to Cart</span
+              >
+            </p>
+          </button>
+        </div>
       </div>
     </div>
   </body>
